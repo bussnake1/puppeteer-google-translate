@@ -1,11 +1,12 @@
 # puppeteer-google-translate
 
-Translate texts or documents with Google Translate using Puppeteer
+Translate texts or documents with Google Translate using Puppeteer, deploy on heroku
+Fork of original repo: https://github.com/alanleungcn/puppeteer-google-translate
 
 ## Installation
 
 ```bash
-npm i puppeteer-google-translate
+npm i puppeteer-google-translate-heroku
 ```
 
 ## Usage
