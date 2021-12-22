@@ -9,7 +9,8 @@ export default async (
 	timeout: number;
 }> => {
 	const browser = await puppeteer.launch({
-		headless: opt.headless === null ? true : opt.headless
+		headless: opt.headless === null ? true : opt.headless,
+		args: ['--no-sandbox']
 	});
 	const [page] = await browser.pages();
 	const timeout: number = opt.timeout === null ? 10000 : opt.timeout;
